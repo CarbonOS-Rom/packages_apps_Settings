@@ -6347,5 +6347,19 @@
 
         <!-- This is the longest AndroidManifest.xml ever. -->
 
+         <!-- CarbonOS additions -->
+        <activity android:name=".Settings$CarbonObsidianSettingsActivity"
+                  android:label="@string/obsidian_dashboard_title"
+                  android:icon="@drawable/ic_homepage_obsidian"
+                  android:exported="true"
+                  android:parentActivityName="com.android.settings">
+            <intent-filter>
+                <action android:name="com.android.settings.action.SETTINGS"/>
+            </intent-filter>
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                       android:value="com.carbon.obsidian.ObsidianDashboard"/>
+            <meta-data android:name="com.android.settings.summary"
+                       android:resource="@string/obsidian_summary_title"/>
+        </activity>
     </application>
 </manifest>
