@@ -18,6 +18,9 @@
     <string name="carbon_version">CarbonOS version</string>
     <string name="carbon_version_default">Unknown</string>
     <string name="keywords_carbon_version">CarbonOS version, carbon version</string>
+    
+    <!-- CarbonOS Maintainer -->
+    <string name="CarbonOS_maintainer">CarbonOS Maintainer</string>
 
     <!-- Hardware info -->
     <string name="device_name">Device | Model</string>
