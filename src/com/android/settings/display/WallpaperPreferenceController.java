@@ -33,7 +33,7 @@ import com.android.settings.core.BasePreferenceController;
 import com.android.settingslib.RestrictedLockUtilsInternal;
 import com.android.settingslib.RestrictedPreference;
 
-import com.android.internal.util.lightning.Utils;
+import com.android.internal.util.carbon.Utils;
 
 import java.util.List;
 
